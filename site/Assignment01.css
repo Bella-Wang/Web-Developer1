@@ -1,0 +1,235 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container{
+	height:100%;
+	width: 100%;
+	float: left;
+	height:80px;
+}
+#menu{
+	text-align: center;
+	color: brown;
+	padding-top: 20px;
+	
+	
+}
+
+@media(min-width:992px){
+
+.dish1,.dish2,.dish3{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	width: 32%;
+	float: left;
+	margin: 5px;
+	background-color: #DADADA;
+	height:100%;
+
+}
+
+#chicken{
+	background-color: #D05F6E;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#beef{
+	background-color:#29C941;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#Sushi{
+	background-color:#4BADF5;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+.intro{
+	clear:left;
+	float:left;
+	width: 100%;
+	padding:10px;
+	
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+.dish1{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	float: left;
+	margin: 5px;
+	background-color: #DADADA;
+	height:100%;
+	width: 48.5%;
+
+}
+
+.dish2{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	float: left;
+	margin: 5px;
+	background-color: #DADADA;
+	height:100%;
+	width: 48.5%;
+
+
+}
+
+.dish3{
+	float:left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	margin: 5px;
+	background-color:#DADADA;
+	width: 98%;
+
+}
+#chicken{
+	background-color: #D05F6E;
+	width: 48%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#beef{
+	background-color:#29C941;
+	width: 48%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#Sushi{
+	clear:both;
+	background-color:#4BADF5;
+	width: 23.5%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+.intro{
+	clear:left;
+	float:left;
+	width: 100%;
+	padding:10px;
+	
+}
+	
+}
+
+
+@media(max-width:767px){
+
+.dish1,.dish2,.dish3{
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	width: 100%;
+	float: left;
+	margin: 5px;
+	background-color: #DADADA;
+	height:100%;
+
+}
+
+#chicken{
+	background-color: #D05F6E;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#beef{
+	background-color:#29C941;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+#Sushi{
+	background-color:#4BADF5;
+	width: 40%;
+	float: right;
+	text-align: center;
+	padding:5px;
+	color: antiquewhite;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size:20px;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+.intro{
+	clear:left;
+	float:left;
+	width: 100%;
+	padding:10px;
+	
+}
+}
+	
+
